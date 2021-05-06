@@ -19,7 +19,7 @@ const stateData = [
 },{
 	state: 'Arizona',
 	stateBird: 'Cactus Wren',
-	birdImage: 'https://i.imgur.com/VudOfaE.jpg',
+	birdImage: 'https://i.imgur.com/nxUQ8ya.jpg',
 	capital: 'Phoenix',
 	population: 7278717,
 	topAttractions: 'Grand Canyon'
@@ -47,7 +47,7 @@ const stateData = [
 },{
 	state: 'Connecticut',
 	stateBird: 'American Robin',
-	birdImage: 'https://i.imgur.com/5cnGoHs.jpg',
+	birdImage: 'https://i.imgur.com/x2JucWT.jpg',
 	capital: 'Hartford',
 	population: 3565287,
 	topAttractions: 'Louis’ Lunch'
