@@ -5,14 +5,14 @@ const stateData = [
 {
 	state: 'Alabama', 
 	stateBird: 'Yellowhammer',
-	birdImage: 'https://i.imgur.com/Rv6WJxJ.jpg',
+	birdImage: 'https://i.imgur.com/ma7Qeic.jpg',
 	capital: 'Montgomery',
 	population: 4903185,
 	topAttractions: 'US Space and Rocket Center'
 },{
 	state: 'Alaska',
 	stateBird:  'Willow Ptarmigan',
-	birdImage: 'https://i.imgur.com/rliV2Vt.jpg',
+	birdImage: 'https://i.imgur.com/N5HALYj.jpg',
 	capital: 'Juno',
 	population: 731545,
 	topAttractions: 'Denali National Park'
