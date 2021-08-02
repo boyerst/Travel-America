@@ -10,7 +10,6 @@ require('./db/db')
 
 
 
-
 server.use(express.static('public'))
 server.use(bodyParser.urlencoded({ extended: false }))
 

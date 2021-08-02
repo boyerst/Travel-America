@@ -5,11 +5,7 @@ const stateData = [
 {
 	state: 'Alabama', 
 	stateBird: 'Yellowhammer',
-<<<<<<< HEAD
-	birdImage: 'https://i.imgur.com/ma7Qeic.jpg',
-=======
 	birdImage: 'https://i.imgur.com/nxUQ8ya.jpg',
->>>>>>> 1355c63ea7dc237336345b94ca323bb2e1a760d2
 	capital: 'Montgomery',
 	population: 4903185,
 	topAttractions: 'US Space and Rocket Center'
