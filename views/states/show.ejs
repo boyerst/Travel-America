@@ -7,9 +7,9 @@
 
 	<h2 class='showHeading'> <%= state.state %> </h2>
 
-		<p> State Bird: <%= state.stateBird %>
-		<p> State Population: <%= state.population %>
-		<p> Top Attractions: <%= state.topAttractions %>
+		<p class='stateInfo'> State Bird: <%= state.stateBird %>
+		<p class='stateInfo'> State Population: <%= state.population %> residents
+		<p class='stateInfo'> Top Attractions: <%= state.topAttractions %>
 		<p>
 			<img class='birds' src="<%= state.birdImage %>"/>
 		</p>
@@ -21,16 +21,16 @@
 
 				<label for="states"></label>
 				
-				<button class='buttonMyVisit'>I have been here</button>
+				<button class='showButton'>I have been here!</button>
 			</form>
 		<%}%>
 
 
 			<% if(user) {%>
-			<form method="POST" action="/comments/<%= state.id %>">
-				<textarea name='text' placeholder="Share your experience"></textarea>
+			<form class='commentForm' method="POST" action="/comments/<%= state.id %>">
+				<textarea class='textArea' name='text' placeholder="Share your experience..."></textarea>
 				<br />
-				<button class='buttonShare'>Share</button>
+				<button class='showButton'>Share</button>
 			</form>
 			<%}%>		
 

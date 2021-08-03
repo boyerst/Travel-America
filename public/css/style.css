@@ -76,29 +76,83 @@ header {
  	text-align: center;
  }
 
+.stateInfo {
+  padding: 5px;
+}
 
 .birds{
-	width: 200px;
-	height: 200px;
+	width: 500px;
+	height: 500px;
 	border: 10px solid black;
 	border-radius: 20%;
-	margin: 15px;
+	margin: 25px;
 }
   	
-
-.buttonMyVisit {
-  margin: 7px;
+.commentForm {
+  padding: 5px 20px;
 }
 
-.buttonShare {
-  margin: 3px;
+.textArea {
+  width: 500px;
+  padding: 5px;
 }
+.showButton {
+  padding: 3px;
+  margin: 5px;
+}
+
 	
 .showHeading {
   margin: 5px;
 }
 
+.indexHeading{
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
 .myProfile {
   position: absolute;
   right: 70px;
+
 }
+
+.myProfile:hover {
+  color:  red;
+  text-decoration: border; 
+  text-shadow: 2px 2px 4px #000000;
+}
+
+
+.statesColumns {
+  column-count: 3;
+  list-style-position: inside;
+  column-rule-style: dotted;
+  list-style-type: none;
+}
+
+.statesList {
+  padding: 4px;
+}
+
+
+.homeHeading3 {
+  margin: 15px;
+}
+
+.homeHeading4 {
+  margin: 25px;
+}
+
+.homeP {
+  margin: 10px;
+}
+
+
+
+
+
+
+
+
+

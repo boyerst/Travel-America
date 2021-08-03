@@ -7,12 +7,12 @@
 <% } %>
 
  
-	<h3>The United States: Of America</h3>
+	<h3 class='indexHeading'>The United States of America</h3>
 
-	<ol>
+	<ol class='statesColumns'>
 		<% states.forEach((state) => { %>
 
-			<li>
+			<li class='statesList'>
 				<a href="/states/<%= state.id %>"><%= state.state %></a>
 				
 				<!-- Need to add loop to populate state data from future stateData.js file -->
