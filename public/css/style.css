@@ -59,30 +59,31 @@ header {
 	justify-content: center;
 
 }
- .fieldset{
- 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px rgba(0,0,0,0.19);
- 	border: solid black 5px;
- 	border-radius: 10%;
- 	font-size: 14pt
- 	text-align: center;
- 	margin: 30px;
 
- }
+.fieldset{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px rgba(0,0,0,0.19);
+	border: solid black 5px;
+	border-radius: 10%;
+	font-size: 14pt
+	text-align: center;
+	margin: 30px;
 
- .input {
+}
+
+.input {
  	margin: 5px;
  	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px rgba(0,0,0,0.19);
  	text-align: center;
  }
 
 
-  .birds{
-  	width:200px;
-  	height:200px;
-  	border:10px solid black;
-  	border-radius: 20%;
-  	margin:0;
-  }
+.birds{
+	width:200px;
+	height:200px;
+	border:10px solid black;
+	border-radius: 20%;
+	margin:0;
+}
   	
 
 

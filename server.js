@@ -6,7 +6,7 @@ const session = require('express-session')
 const bodyParser = require('body-parser')
 const methodOverride = require('method-override')
 
-require('./db/db')
+require('./db/db.js')
 
 
 
