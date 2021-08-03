@@ -78,18 +78,27 @@ header {
 
 
 .birds{
-	width:200px;
-	height:200px;
-	border:10px solid black;
+	width: 200px;
+	height: 200px;
+	border: 10px solid black;
 	border-radius: 20%;
-	margin:0;
+	margin: 15px;
 }
   	
 
+.buttonMyVisit {
+  margin: 7px;
+}
 
-
-
-
-
- 	
+.buttonShare {
+  margin: 3px;
+}
 	
+.showHeading {
+  margin: 5px;
+}
+
+.myProfile {
+  position: absolute;
+  right: 70px;
+}

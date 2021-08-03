@@ -5,7 +5,7 @@
 	
 
 
-	<h2> <%= state.state %> </h2>
+	<h2 class='showHeading'> <%= state.state %> </h2>
 
 		<p> State Bird: <%= state.stateBird %>
 		<p> State Population: <%= state.population %>
@@ -21,7 +21,7 @@
 
 				<label for="states"></label>
 				
-				<button>I have been here</button>
+				<button class='buttonMyVisit'>I have been here</button>
 			</form>
 		<%}%>
 
@@ -30,7 +30,7 @@
 			<form method="POST" action="/comments/<%= state.id %>">
 				<textarea name='text' placeholder="Share your experience"></textarea>
 				<br />
-				<button>Share</button>
+				<button class='buttonShare'>Share</button>
 			</form>
 			<%}%>		
 
