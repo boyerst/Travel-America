@@ -62,12 +62,14 @@ header {
 .navLinks li {
 	display: inline-block;
 	padding: 0px 20px;
+  font-family: 'Royal Acid';
 }
 
 .navLinks li a:hover {
 	color: red;
 	text-decoration: border; 
 	text-shadow: 2px 2px 4px #000000;
+
 }
 		
 .inputForm {
@@ -127,12 +129,20 @@ header {
 .indexHeading{
   margin-top: 30px;
   margin-bottom: 60px;
+  font-family: 'Royal Acidbath';
+  font-size: 50px;
 }
 
 .myProfile {
   position: absolute;
   right: 70px;
 
+}
+
+.loginRegister {
+  font-family: 'Royal Acidbath';
+  font-size: 30px;
+  margin-top: 20px;
 }
 
 .myProfile:hover {
