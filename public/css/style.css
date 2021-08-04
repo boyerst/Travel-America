@@ -179,7 +179,15 @@ header {
   margin: 10px;
 }
 
-
+footer {
+  bottom : 0;  
+  position:  fixed;
+  margin-left: 10px;
+  height : 30px;   
+/*  text-align: center;  */
+  vertical-align: bottom;
+  font-size: 12px;
+}
 
 
 
