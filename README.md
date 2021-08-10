@@ -31,6 +31,8 @@ ___
 
 
 
+___
+
 
 ### WireFrames
 ![Wireframe](https://i.imgur.com/MpnQ7Rp.jpg)
@@ -41,7 +43,11 @@ ___
 
 
 
-### State Schema
+___
+
+### Schemas
+
+#### State Schema
 
 name : {
 	type : string,
@@ -59,7 +65,7 @@ topAttractions: [STRING],
 stateBird: String, 
 
 
-### User Schema
+#### User Schema
 
 username: {
 	type: String,
