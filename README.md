@@ -14,6 +14,8 @@
 
 ___
 
+<br>
+
 ### User Story
 
 
@@ -33,6 +35,7 @@ ___
 
 ___
 
+<br>
 
 ### WireFrames
 ![Wireframe](https://i.imgur.com/MpnQ7Rp.jpg)
@@ -44,6 +47,8 @@ ___
 
 
 ___
+
+<br>
 
 ### Schemas
 
