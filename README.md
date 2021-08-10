@@ -1,4 +1,4 @@
-![Header](https://i.imgur.com/M2V1lhM.png) 
+![Header](https://i.imgur.com/4DBUyqZ.png) 
 
 
 ***
@@ -6,9 +6,9 @@
 ### Views 
 
 
-[Imgur](https://i.imgur.com/tXuArBp.png)
-[Imgur](https://i.imgur.com/MGyTY1D.png)
-[Imgur](https://i.imgur.com/OUv87K4.png)
+![Views](https://i.imgur.com/tXuArBp.png)
+![Views](https://i.imgur.com/MGyTY1D.png)
+![Views](https://i.imgur.com/OUv87K4.png)
 
 
 
@@ -33,11 +33,11 @@ ___
 
 
 ### WireFrames
-[Imgur](https://i.imgur.com/MpnQ7Rp.jpg)
-[Imgur](https://i.imgur.com/Ja4shyo.jpg)
-[Imgur](https://i.imgur.com/bNKrE9T.jpg)
-[Imgur](https://i.imgur.com/pyq2xok.jpg)
-[Imgur](https://i.imgur.com/HN9yTVs.jpg)
+![Wireframe](https://i.imgur.com/MpnQ7Rp.jpg)
+![Wireframe](https://i.imgur.com/Ja4shyo.jpg)
+![Wireframe](https://i.imgur.com/bNKrE9T.jpg)
+![Wireframe](https://i.imgur.com/pyq2xok.jpg)
+![Wireframe](https://i.imgur.com/HN9yTVs.jpg)
 
 
 
