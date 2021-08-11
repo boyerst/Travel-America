@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Travel America",
   "main": "server.js",
-  "img": "https://i.imgur.com/tXuArBp.png",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
