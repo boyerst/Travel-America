@@ -44,9 +44,7 @@ server.get('/', (req, res) => {
 	const message = req.session.message
 	req.session.message = ''
 	res.render('home.ejs', {
-		message: message, 
-    image_url: 'https://i.imgur.com/tXuArBp.png',
-    site_url: 'https://travel-america.herokuapp.com/'
+		message: message
 	})
 
 })
