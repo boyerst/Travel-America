@@ -26,7 +26,6 @@ body{
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-
 }
 	
 
@@ -41,7 +40,6 @@ header {
 	font-weight: 500;
 	color: navy;
 	text-decoration: none
-
 }
 
 #flag{
@@ -49,6 +47,7 @@ header {
 	height: 35px;
 	cursor: pointer;
 }
+
 .states{
 	background-color: white;
 }
@@ -56,7 +55,6 @@ header {
 .navLinks{
 	list-style: none;
 	border-style: outset;
-
 }
 
 .navLinks li {
@@ -69,32 +67,49 @@ header {
 	color: red;
 	text-decoration: border; 
 	text-shadow: 2px 2px 4px #000000;
-
 }
 		
 .inputForm {
 	display: flex;
 	text-align: center;
 	justify-content: center;
-
 }
 
 .fieldset{
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px rgba(0,0,0,0.19);
 	border: solid black 5px;
-  padding: 15px;
-	border-radius: 10%;
+  padding: 40px;
+	border-radius: 25%;
 	font-size: 14pt
 	text-align: center;
 	margin: 30px;
-
 }
+
+.fieldsetTitle {
+  padding: 10px;
+}
+
+.regLoginForm {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.label {
+  display:  inline-block;
+  align-content: right;
+  margin-top: 10px;
+}
+
 
 .input {
  	margin: 5px;
+  height: 26px;
  	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px rgba(0,0,0,0.19);
  	text-align: center;
  }
+
 
 .stateInfo {
   padding: 5px;
@@ -121,9 +136,24 @@ header {
   margin: 5px;
 }
 
+.signupButton {
+  margin-top: 9px;
+  padding: 2px;
+  width: 90px;
+}
 	
+.loginButton {
+  margin-top: 9px;
+  padding: 2px;
+  width: 90px;
+}
+
 .showHeading {
   margin: 5px;
+  font-family: 'Royal Acidbath';
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .indexHeading{
