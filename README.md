@@ -7,7 +7,9 @@
 
 
 ![Views](https://i.imgur.com/tXuArBp.png)
+
 ![Views](https://i.imgur.com/MGyTY1D.png)
+
 ![Views](https://i.imgur.com/OUv87K4.png)
 
 
@@ -39,9 +41,13 @@ ___
 
 ### WireFrames
 ![Wireframe](https://i.imgur.com/MpnQ7Rp.jpg)
+
 ![Wireframe](https://i.imgur.com/Ja4shyo.jpg)
+
 ![Wireframe](https://i.imgur.com/bNKrE9T.jpg)
+
 ![Wireframe](https://i.imgur.com/pyq2xok.jpg)
+
 ![Wireframe](https://i.imgur.com/HN9yTVs.jpg)
 
 
