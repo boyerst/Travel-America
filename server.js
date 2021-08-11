@@ -8,7 +8,7 @@ const methodOverride = require('method-override')
 
 require('./db/db.js')
 
-<img src="https://i.imgur.com/tXuArBp.png" />
+
 
 server.use(express.static('public'))
 server.use(bodyParser.urlencoded({ extended: false }))
