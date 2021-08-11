@@ -44,7 +44,8 @@ server.get('/', (req, res) => {
 	const message = req.session.message
 	req.session.message = ''
 	res.render('home.ejs', {
-		message: message
+		message: message, 
+    image_url: 'https://i.imgur.com/tXuArBp.png',
 	})
 
 })
