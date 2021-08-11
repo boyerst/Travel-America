@@ -133,16 +133,30 @@ header {
   font-size: 50px;
 }
 
-.myProfile {
-  position: absolute;
-  right: 70px;
-
-}
-
 .loginRegister {
   font-family: 'Royal Acidbath';
   font-size: 30px;
   margin-top: 20px;
+}
+
+.userProfile {
+  font-family: 'Royal Acidbath';
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.userStatesVisited {
+  padding: 2px;
+}
+
+.myProfile {
+  position: absolute;
+  right: 70px;
+  font-family: 'Royal Acidbath';
+  font-size: 25px;
+  margin-top: -40px;
+  margin-bottom: 20px;
 }
 
 .myProfile:hover {
@@ -150,7 +164,6 @@ header {
   text-decoration: border; 
   text-shadow: 2px 2px 4px #000000;
 }
-
 
 .statesColumns {
   column-count: 3;
@@ -177,6 +190,10 @@ header {
 
 .homeP {
   margin: 10px;
+}
+
+.homeImg {
+  pointer-events: none;
 }
 
 footer {

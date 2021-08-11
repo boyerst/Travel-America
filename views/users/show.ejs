@@ -1,9 +1,10 @@
 <%- include('../partials/header.ejs') %>
 
-<h3> <%= user %>'s States Visited</h3>
+<h3 class="userProfile"> <%= user %>'s States Visited</h3>
+
 
 <% states.forEach((state) => { %>
-	<p>
+	<p class="userStatesVisited">
 		<a href="/states/<%= state.id %>"><%= state.state %></a>
 	</p>
     
