@@ -46,6 +46,7 @@ server.get('/', (req, res) => {
 	res.render('home.ejs', {
 		message: message, 
     image_url: 'https://i.imgur.com/tXuArBp.png',
+    site_url: 'https://travel-america.herokuapp.com/'
 	})
 
 })
