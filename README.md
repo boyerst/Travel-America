@@ -40,6 +40,7 @@ ___
 <br>
 
 ### WireFrames
+
 ![Wireframe](https://i.imgur.com/MpnQ7Rp.jpg)
 
 ![Wireframe](https://i.imgur.com/Ja4shyo.jpg)
@@ -59,37 +60,54 @@ ___
 ### Schemas
 
 #### State Schema
+```language
 
-name : {
-	type : string,
-	required: true
-},
-capital: {
-	type: String,
-	req: true, 
-},
-population: {
-	type: Number
-	required: 
-},
-topAttractions: [STRING],
-stateBird: String, 
+stateSchema = ({
+  state: {
+    type: String,
+    required: true
+  },
+  capital: {
+    type: String,
+    required: true, 
+  },
+  population: {
+    type: Number,
+    required: true
+  },
+  topAttractions: [String],
+  stateBird: String, 
+  birdImage: String, 
+  comments: [Comment.schema]
+})
 
+
+
+```
 
 #### User Schema
+```language
 
-username: {
-	type: String,
-	required: True, 
-},
-password: {
-	type: String, 
-	required: True, 
-},
-emailAdress: {
-	type: String, 
-	required: True  
-} 
-firstname: String, 
-lastname: String,
-dateOfBirth: Date,
+userSchema = ({
+  user: {
+    type: String,
+    required: true 
+  },
+  password: {
+    type: String, 
+    required: true 
+  },
+  emailAddress: {
+    type: String, 
+    required: true  
+  }, 
+  firstName: String, 
+  lastName: String,
+  dateOfBirth: Date,
+  states: [{
+    type: mongoose.Schema.Types.ObjectId,
+    ref:'State'
+  }],
+})
+
+```
