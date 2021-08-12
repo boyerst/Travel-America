@@ -83,7 +83,7 @@ const stateData = [
 	topAttractions: 'Georgia Aquarium'
 },{
 	state: 'Hawaii',
-	stateBird: 'Hawaiin Goose',
+	stateBird: 'Hawaiian Goose',
 	birdImage: 'https://i.imgur.com/gtATq2w.jpg',
 	capital: 'Honolulu',
 	population: 1415872,
