@@ -20,6 +20,7 @@ body{
 	background:linear-gradient(to right, #ff8080, white , #80dfff); 
 	font-family: sans-serif;
 	text-align: center;
+  padding-bottom: 150px;
 }
 
 * {
@@ -133,7 +134,8 @@ header {
 }
 .showButton {
   padding: 3px;
-  margin: 5px;
+  margin-bottom: 20px;
+  margin-top: 10px;
 }
 
 .signupButton {
@@ -153,7 +155,7 @@ header {
   font-family: 'Royal Acidbath';
   font-size: 30px;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .indexHeading{
@@ -236,8 +238,32 @@ footer {
   font-size: 12px;
 }
 
+.commentsList {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  list-style: none;
 
+}
 
+.comments {
+  padding: 17px;
+/*  overflow: hidden;*/
+  word-wrap: break-word;
+  text-align: left;
+/*  margin: 2px;*/
+}
 
+.commentInfo{
+  font-weight: 80;
+}
+
+.commentButton {
+  padding: 3px;
+  float: right;
+  align-items: inherit;
+
+}
 
 

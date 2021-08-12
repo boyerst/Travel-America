@@ -35,25 +35,24 @@
 			<%}%>		
 
 
-	<ul>
-    	<% state.comments.forEach((comment) => { %>
-      		<li>
-        	<%= comment.text %>
-        	<br />
-        	 <small>(<%= comment.posted.toLocaleString() %>) by (<%= comment.user.user %>) </small>
-				 <small>
+	<ul class="commentsList">
+    <% state.comments.forEach((comment) => { %>
+      <li class="comments">
+        <%= comment.text %>
+        <br />
+        <small class="commentInfo"> Posted by <%= comment.user.user %> on (<%= comment.posted.toLocaleString() %>) </small>
+				<small>
 
+				 <% if(userId == comment.user.id) { %>
 
-				 	<% if(userId == comment.user.id) { %>
+		      <form method="POST" action="/comments/<%= state.id %>/<%= comment.id %>?_method=DELETE">
+		        <button class="commentButton">Delete</button>
+		      </form>
+		<%}%>
 
-		        	<form method="POST" action="/comments/<%= state.id %>/<%= comment.id %>?_method=DELETE">
-		            	<button>Delete This Comment</button>
-		        	</form>
-		        	<%}%>
-
-		    	</small>
-      		</li>
-    	<% }) %>
+		    </small>
+      </li>
+    <% }) %>
  	</ul>
 
 
