@@ -202,10 +202,12 @@ header {
   list-style-position: inside;
   column-rule-style: dotted;
   list-style-type: none;
+  font-size: 23px;
 }
 
 .statesList {
   padding: 4px;
+  font-family: 'Royal Acidbath';
 }
 
 
