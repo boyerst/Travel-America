@@ -3,6 +3,28 @@
 
 ***
 
+Do you have a bucket list of states that you want to visit in America? The Travel America app gives travelers a platform to track which states they have been to, learn about states for future visits and interact with those who have been there, done that. Register an account to start creating your profile and knocking off states from your bucket list.
+
+[Start traveling!](https://travel-america.herokuapp.com/)
+
+___
+
+### Demo
+
+<p align="center">
+  <img src="https://i.imgur.com/lnGwTcz.gif">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/9Q8zSs4.gif">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/1l5Qal8.gif">
+</p>
+
+___
+
 ### Views 
 
 
