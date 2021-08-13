@@ -65,13 +65,13 @@ const stateData = [
 	birdImage: 'https://i.imgur.com/LLuKWLL.jpg',
 	capital: 'NA',
 	population: 702455,
-	topAtateBirds: 'Northern Mockingbird'
+	topAttractions: 'The Washington Monument'
 
 },{
 	state: 'Florida',
+  stateBird: 'Northern Mockingbird',
 	birdImage: 'https://i.imgur.com/xDQmhid.jpg',
 	capital: 'Tallahasse',
-	stateFlag: 'https://i.imgur.com/5fnzue7.png',
 	population: 21477737,
 	topAttractions: 'Disney World'			
 },{
@@ -125,7 +125,7 @@ const stateData = [
 	topAttractions: 'Boot Hill/ Dodge City'
 },{
 	state: 'Kentucky',
-	stateBIrd: 'Northern Cardinal',
+	stateBird: 'Northern Cardinal',
 	birdImage: 'https://i.imgur.com/GDXF9hO.jpg',
 	capital: 'Frankfort',
 	population: 4476673,
@@ -205,7 +205,7 @@ const stateData = [
 },{
 	
 	state: 'Nevada',
-	stateBIrd: 'Mountain Bluebird',
+	stateBird: 'Mountain Bluebird',
 	birdImage: 'https://i.imgur.com/tgaN291.jpg',
 	capital: 'Carson City',
 	population: 3080156,
@@ -284,7 +284,7 @@ const stateData = [
 	topAttractions: 'Gettysburg National Military Park'
 },{
 	state: 'Rhode Island', 
-	stateBIrd: 'Rhode Island Red Chicken',
+	stateBird: 'Rhode Island Red Chicken',
 	birdImage: 'https://i.imgur.com/kJrU8wE.jpg',
 	capital: 'Providence',
 	population: 1059361,
