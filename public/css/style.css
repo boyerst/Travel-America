@@ -14,8 +14,6 @@
     font-display: swap;
 }
 
-
-
 body{
 	background:linear-gradient(to right, #ff8080, white , #80dfff); 
 	font-family: sans-serif;
@@ -29,7 +27,6 @@ body{
 	padding: 0;
 }
 	
-
 header {
 	display: flex;
 	justify-content: space-around;
@@ -64,10 +61,18 @@ header {
   font-family: 'Royal Acid';
 }
 
+.navLinks a:link {
+  text-decoration: none;
+}
+
 .navLinks li a:hover {
 	color: red;
 	text-decoration: border; 
 	text-shadow: 2px 2px 4px #000000;
+}
+
+.navLinks a:visited {
+  color: blue;
 }
 		
 .inputForm {
@@ -103,14 +108,12 @@ header {
   margin-top: 10px;
 }
 
-
 .input {
  	margin: 5px;
   height: 26px;
  	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px rgba(0,0,0,0.19);
  	text-align: center;
  }
-
 
 .stateInfo {
   padding: 5px;
@@ -175,12 +178,25 @@ header {
   font-family: 'Royal Acidbath';
   font-size: 30px;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .userStatesVisited {
-  padding: 2px;
+  padding: 5px;
+  font-family: 'Royal Acidbath';
+  font-size: 25px;
 }
+
+.userStatesVisited a:link {
+  text-decoration: none;
+}
+
+.userStatesVisited a:hover {
+  color:  red;
+  text-decoration: border; 
+  text-shadow: 2px 2px 4px #000000;
+}
+
 
 .myProfile {
   position: absolute;
@@ -191,7 +207,25 @@ header {
   margin-bottom: 20px;
 }
 
-.myProfile:hover {
+.myProfile:link {
+  text-decoration: none;
+}
+
+.myProfile a:hover {
+  color:  red;
+  text-decoration: border; 
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.statesColumns a:link {
+  text-decoration: none;
+}
+
+.statesLinks:visited {
+  color: blue;
+}
+
+.statesLinks:hover {
   color:  red;
   text-decoration: border; 
   text-shadow: 2px 2px 4px #000000;
@@ -209,7 +243,6 @@ header {
   padding: 4px;
   font-family: 'Royal Acidbath';
 }
-
 
 .homeHeading3 {
   margin: 15px;
@@ -246,7 +279,6 @@ footer {
   margin-right: auto;
   text-align: center;
   list-style: none;
-
 }
 
 .comments {
